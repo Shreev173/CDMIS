@@ -1,0 +1,21 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+h1,
+h2,
+h3,
+p {
+  font-family: "Mukta", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333333;
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=main.css.map */
