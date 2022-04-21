@@ -15,11 +15,31 @@ body {
   margin: 0 90px;
 }
 
-.font-18 {
+.font-18-regular {
   font-size: $font-18;
+  font-weight: $regular;
 }
+
+.font-18-medium {
+  font-size: $font-18;
+  font-weight: $medium;
+}
+.font-18-semibold {
+  font-size: $font-18;
+  font-weight: $semibold;
+}
+
 .font-20 {
   font-size: $font-20;
+}
+
+.font-32-medium {
+  font-size: $font-32;
+  font-weight: $medium;
+}
+
+.gray-100 {
+  color: $gray-100;
 }
 
 .nav-link {
@@ -37,15 +57,78 @@ body {
 
 //button
 
-.switch-btn {
-  background-color: $white;
-  border-radius: 10px;
-  width: 78px;
-  height: 40px;
+.dropdown {
+  .switch-btn {
+    background-color: $white;
+    border-radius: 10px;
+    width: 78px;
+    height: 40px;
 
-  .images {
+    .btn_inner {
+      position: absolute;
+      top: 2.5px;
+      left: 6px;
+    }
+  }
+}
+
+//profile
+
+#profile {
+  margin-top: 80px;
+  .resourceprofile {
+    background-color: $white;
+    width: 881px;
+    height: 359px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(19, 19, 19, 0.15);
+  }
+  .profile-status {
+    background-color: $white;
+    width: 350px;
+    height: 359px;
+    margin-left: 70px;
+    box-shadow: 0px 2px 4px rgba(19, 19, 19, 0.15);
+  }
+
+  .user-img {
     position: absolute;
-    top: 2.5px;
-    left: 6px;
+    top: -50px;
+  }
+
+  .profile-content {
+    margin-top: 40px;
+    padding: 0px 200px;
+  }
+
+  .profile-paragraph {
+    color: $primary;
+  }
+
+  .profile-info {
+    margin-top: -15px;
+  }
+
+  .profile-img {
+    padding-top: -30px;
+  }
+
+  .profile-info-content {
+    font-weight: $regular;
+  }
+
+  .btn-outline-primary {
+    width: 157px;
+    height: 40px;
+  }
+
+  .event-numbers {
+    font-size: 3.75rem;
+    color: $secondary;
+    font-weight: $semibold;
+  }
+
+  .event-total {
+    margin-top: -30px;
   }
 }

@@ -8,17 +8,18 @@
     <link rel="stylesheet" type="text/css" href="/sass/main.css" />
   </head>
   <body>
+    <!-- Navbar -->
     <section id="#header" class="px-section">
       <header>
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand d-flex" href="#"
             ><img src="/images/logo.svg" alt="Logo" />
-            <div class="content pl-4 font-18">
+            <div class="content pl-4 font-18-medium">
               Government of Nepal
-              <span class="d-block">
+              <span class="d-block pt-2">
                 Ministry of Federal Affairs and General Administration</span
               >
-              <span class="d-block content_inner">
+              <span class="d-block content_inner pt-2">
                 Provincial and Local Governance Support Program
               </span>
             </div>
@@ -38,33 +39,15 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link font-18 pr-5" href="#">About Us</a>
+                <a class="nav-link font-18-regular pr-5" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link font-18 pr-5" href="#">Manual</a>
+                <a class="nav-link font-18-regular pr-5" href="#">Manual</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link font-18 pr-5" href="#">Module</a>
+                <a class="nav-link font-18-regular pr-5" href="#">Module</a>
               </li>
               <li class="nav-item dropdown">
-                <!-- <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                </a> -->
-                <!-- <div
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div> -->
-
                 <div class="dropdown">
                   <button
                     class="btn switch-btn"
@@ -74,26 +57,122 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    <div class="images">
+                    <div class="btn_inner">
                       <img src="images/resourceperson.svg" />
                       <img src="icons/dropdown.svg" alt="dropdown" />
                     </div>
                   </button>
 
                   <div
-                    class="dropdown-menu"
+                    class="dropdown-menu dropdown-list"
                     aria-labelledby="dropdownMenuButton"
-                  >
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
+                  ></div>
                 </div>
               </li>
             </ul>
           </div>
         </nav>
       </header>
+    </section>
+
+    <!-- Profile Content -->
+
+    <section id="profile">
+      <div class="px-section">
+        <div class="row">
+          <div class="col-lg-8 resourceprofile">
+            <div class="user-img">
+              <img
+                class="img-fluid ml-3"
+                src="images/user profile.svg"
+                alt="userprofile"
+              />
+            </div>
+
+            <div class="profile-content">
+              <h1 class="gray-100 font-32-medium">Prakati Khati</h1>
+              <p class="profile-paragraph font-18-regular">Resource Person</p>
+
+              <div class="profile-info d-flex">
+                <div class="d-flex">
+                  <img
+                    class="img-fluid profile-img pr-2"
+                    src="icons/mail.svg"
+                  />
+                  <p class="profile-info-content mt-3">Mike@gmail.com</p>
+                </div>
+                <div class="d-flex ml-2">
+                  <img
+                    class="img-fluid profile-img pr-2"
+                    src="icons/phone.svg"
+                  />
+                  <p class="profile-info-content mt-3 gray-100">
+                    +977-9812345678
+                  </p>
+                </div>
+                <div class="d-flex ml-2">
+                  <img
+                    class="img-fluid profile-img pr-2"
+                    src="icons/location.svg"
+                  />
+                  <p class="profile-info-content mt-3 gray-100">
+                    Kathmandu, Nepal
+                  </p>
+                </div>
+              </div>
+
+              <div class="profile-content-second mt-3">
+                <p class="gray-100 font-18-medium">
+                  Associated Organizations :
+                </p>
+
+                <div class="d-flex">
+                  <div class="d-flex">
+                    <p class="gray-100 font-18-semibold">योग्यता :</p>
+                    <p class="gray-100 font-18-regular">स्नातक</p>
+                  </div>
+                  <div class="d-flex ml-4">
+                    <p class="gray-100 font-18-semibold">उत्तिर्ण बर्ष :</p>
+                    <p class="gray-100 font-18-regular">2016</p>
+                  </div>
+                  <div class="d-flex ml-4">
+                    <p class="gray-100 font-18-semibold">संकाय :</p>
+                    <p class="gray-100 font-18-regular">कानुन</p>
+                  </div>
+                  <div class="d-flex ml-4">
+                    <p class="gray-100 font-18-semibold">डिभिजन :</p>
+                    <p class="gray-100 font-18-regular">प्रथम श्रेणी</p>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                class="btn btn-outline-primary mt-2 font-18-regular"
+              >
+                View Resume
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="profile-status text-center">
+              <h1 class="gray-100 font-32-medium m pt-3">Event Details</h1>
+              <div class="mt-3">
+                <p class="event-numbers">12</p>
+                <p class="event-total font-18-medium gray-100">
+                  Total Events Attended
+                </p>
+              </div>
+              <div>
+                <p class="event-numbers">24</p>
+                <p class="event-total font-18-medium gray-100">
+                  Total Thematic Areas
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script
