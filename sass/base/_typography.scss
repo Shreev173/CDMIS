@@ -14,24 +14,3 @@ $font-18: 1.125rem;
 $font-20: 1.25rem;
 $font-24: 1.5rem;
 $font-32: 2rem;
-
-h1,
-h2,
-h3,
-p {
-  font-family: $fontfamily-base;
-}
-
-h1 {
-  font-size: $font-32;
-  font-weight: $medium;
-  color: $gray-100;
-}
-
-// h2 {
-//   font-size: $font-24;
-// }
-
-// h3 {
-//   font-size: $font-20;
-// }

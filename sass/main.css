@@ -1,21 +1,50 @@
-@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
-h1,
-h2,
-h3,
-p {
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f2f5;
   font-family: "Mukta", sans-serif;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: 500;
-  color: #333333;
+.px-section {
+  margin: 0 90px;
 }
 
-* {
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.font-18 {
+  font-size: 1.125rem;
+}
+
+.font-20 {
+  font-size: 1.25rem;
+}
+
+.nav-link {
+  color: #333333;
+  font-weight: 400;
+}
+
+.content {
+  font-weight: 500;
+}
+
+.content .content_inner {
+  color: #e12a2a;
+}
+
+.switch-btn {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 78px;
+  height: 40px;
+}
+
+.switch-btn .images {
+  position: absolute;
+  top: 2.5px;
+  left: 6px;
 }
 /*# sourceMappingURL=main.css.map */

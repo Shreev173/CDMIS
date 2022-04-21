@@ -1,8 +1,51 @@
-@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css");
 @import "./base/variables";
 @import "./base/typography";
 
 * {
-  margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: $background-color;
+  font-family: $fontfamily-base;
+}
+
+.px-section {
+  margin: 0 90px;
+}
+
+.font-18 {
+  font-size: $font-18;
+}
+.font-20 {
+  font-size: $font-20;
+}
+
+.nav-link {
+  color: $gray-100;
+  font-weight: $regular;
+}
+
+// nav content
+.content {
+  font-weight: $medium;
+  .content_inner {
+    color: $secondary;
+  }
+}
+
+//button
+
+.switch-btn {
+  background-color: $white;
+  border-radius: 10px;
+  width: 78px;
+  height: 40px;
+
+  .images {
+    position: absolute;
+    top: 2.5px;
+    left: 6px;
+  }
 }
