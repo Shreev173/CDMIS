@@ -9,6 +9,7 @@
   </head>
   <body>
     <!-- Navbar -->
+
     <section id="#header" class="px-section">
       <header>
         <nav class="navbar navbar-expand-lg">
@@ -58,15 +59,73 @@
                     aria-expanded="false"
                   >
                     <div class="btn_inner">
-                      <img src="images/resourceperson.svg" />
-                      <img src="icons/dropdown.svg" alt="dropdown" />
+                      <img
+                        class="img-fluid pr-2"
+                        src="images/resourceperson.svg"
+                      />
+                      <img
+                        class="img-fluid"
+                        src="icons/dropdown.svg"
+                        alt="dropdown"
+                      />
                     </div>
                   </button>
 
                   <div
-                    class="dropdown-menu dropdown-list"
+                    class="dropdown-menu mt-4"
                     aria-labelledby="dropdownMenuButton"
-                  ></div>
+                  >
+                    <!-- Resource person -->
+                    <div class="d-flex switch">
+                      <img
+                        class="img-fluid ml-4 pr-3"
+                        src="images/resourceperson.svg"
+                        alt="resourceperson"
+                      />
+
+                      <div class="pt-2">
+                        <p class="font-18-regular gray-100">
+                          Resource Person
+                          <span class="d-block switch-status">current</span>
+                        </p>
+                      </div>
+                    </div>
+                    <!-- participant -->
+                    <div class="d-flex">
+                      <img
+                        class="img-fluid ml-4 pr-3"
+                        src="images/partcipant.svg"
+                        alt="resourceperson"
+                      />
+
+                      <div class="pt-2">
+                        <p class="font-18-regular gray-100">
+                          Participant
+                          <span class="d-block switch-status"
+                            >switch as participant</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+
+                    <!-- organization -->
+                    <div class="d-flex">
+                      <img
+                        class="img-fluid ml-4 pr-3"
+                        src="images/organization.svg"
+                        alt="resourceperson"
+                      />
+
+                      <div class="pt-2">
+                        <p class="font-18-regular gray-100">
+                          Organization
+                          <span class="d-block switch-status"
+                            >switch as organization</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </li>
             </ul>
@@ -77,8 +136,8 @@
 
     <!-- Profile Content -->
 
-    <section id="profile">
-      <div class="px-section">
+    <section id="profile" class="px-section">
+      <div class="">
         <div class="row">
           <div class="col-lg-8 resourceprofile">
             <div class="user-img">
@@ -171,6 +230,16 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Personal Info -->
+
+    <section id="personal-information" class="px-section">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="personal-content mt-5"></div>
         </div>
       </div>
     </section>
