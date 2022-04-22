@@ -33,6 +33,16 @@ body {
   font-size: 1.25rem;
 }
 
+.font-20-medium {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.font-24-regular {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
 .font-32-medium {
   font-size: 2rem;
   font-weight: 500;
@@ -40,6 +50,10 @@ body {
 
 .gray-100 {
   color: #333333;
+}
+
+.gray-200 {
+  color: #828282;
 }
 
 .nav-link {
@@ -154,10 +168,29 @@ body {
 .personal-content {
   background-color: #ffffff;
   border-radius: 4px;
-  width: 1345px;
   height: 500px;
-  margin-left: -12px;
   -webkit-box-shadow: 0px 2px 4px rgba(19, 19, 19, 0.15);
           box-shadow: 0px 2px 4px rgba(19, 19, 19, 0.15);
+}
+
+.btn-light {
+  background-color: #f0f2f5;
+  width: 152px;
+  height: 40px;
+}
+
+.btn-sec {
+  background-color: #ffffff;
+  border: none;
+}
+
+table {
+  position: absolute;
+  left: 10px;
+}
+
+.table td,
+.table th {
+  border: none;
 }
 /*# sourceMappingURL=main.css.map */
