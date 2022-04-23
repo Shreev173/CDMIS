@@ -3,6 +3,8 @@
 @import "./base/typography";
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -93,6 +95,7 @@ body {
     box-shadow: $box-shadow;
     border-radius: 4px;
     border: none;
+    padding: 0;
   }
 }
 
@@ -140,9 +143,9 @@ body {
     margin-top: -15px;
   }
 
-  .profile-img {
-    padding-top: -30px;
-  }
+  // .profile-img {
+  //   padding-top: -30px;
+  // }
 
   .profile-info-content {
     font-weight: $regular;
@@ -185,10 +188,10 @@ body {
   border: none;
 }
 
-table {
-  position: absolute;
-  left: 10px;
-}
+// table {
+//   position: absolute;
+//   left: 10px;
+// }
 
 .table td,
 .table th {
@@ -204,3 +207,12 @@ table {
 //   background-color: $switch-background;
 //   height: 73px;
 // }
+
+.thematic-areas-table {
+  tr:nth-child(even) {
+    background: $switch-background;
+  }
+  tr:nth-child(odd) {
+    background: $white;
+  }
+}
