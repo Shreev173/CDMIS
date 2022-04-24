@@ -58,6 +58,10 @@ body {
   color: $gray-200;
 }
 
+.primary {
+  color: $primary;
+}
+
 .nav-link {
   color: $gray-100;
   font-weight: $regular;
@@ -106,49 +110,32 @@ body {
   font-size: 0.75rem;
   color: $gray-200;
 }
+
 //profile
 
-#profile {
-  margin-top: 80px;
-  .resourceprofile {
-    background-color: $white;
-    width: 881px;
-    height: 359px;
-    border-radius: 4px;
-    box-shadow: $box-shadow;
-  }
-  .profile-status {
-    background-color: $white;
-    width: 350px;
-    height: 359px;
-    margin-left: 70px;
-    box-shadow: $box-shadow;
+.profile-content {
+  background-color: $white;
+  border-radius: 4px;
+  box-shadow: $box-shadow;
+  margin-top: 120px;
+  padding-bottom: 40px;
+
+  .child-content {
+    width: 80%;
   }
 
-  .user-img {
-    position: absolute;
-    top: -50px;
-  }
-
-  .profile-content {
-    margin-top: 40px;
-    padding: 0px 200px;
-  }
-
-  .profile-paragraph {
-    color: $primary;
+  .user-profile {
+    position: relative;
+    top: -60px;
+    left: 30px;
   }
 
   .profile-info {
-    margin-top: -15px;
+    margin-top: -150px;
+    padding-left: 200px;
   }
-
-  // .profile-img {
-  //   padding-top: -30px;
-  // }
-
-  .profile-info-content {
-    font-weight: $regular;
+  .user-info {
+    margin-top: -20px;
   }
 
   .btn-outline-primary {
@@ -161,15 +148,23 @@ body {
   .btn-outline-primary:hover {
     color: $white;
   }
+}
+
+.event-content {
+  background-color: $white;
+  border-radius: 4px;
+  box-shadow: $box-shadow;
+  margin-top: 120px;
+  margin-left: 90px;
 
   .event-numbers {
-    font-size: 3.75rem;
-    color: $secondary;
+    font-size: 4.375rem;
     font-weight: $semibold;
+    color: $secondary;
   }
 
-  .event-total {
-    margin-top: -30px;
+  .event-title {
+    margin-top: -40px;
   }
 }
 
@@ -178,8 +173,8 @@ body {
 .personal-content {
   background-color: $white;
   border-radius: 4px;
-  height: 500px;
   box-shadow: $box-shadow;
+  margin-left: 15px;
 }
 
 //buttons
@@ -194,25 +189,10 @@ body {
   border: none;
 }
 
-// table {
-//   position: absolute;
-//   left: 10px;
-// }
-
 .table td,
 .table th {
-  // background-color: $switch-background;
   border: none;
 }
-
-// .tp-1 {
-//   padding-right: 450px;
-// }
-
-// .switch-colors {
-//   background-color: $switch-background;
-//   height: 73px;
-// }
 
 .thematic-areas-table {
   tr:nth-child(even) {
@@ -220,5 +200,16 @@ body {
   }
   tr:nth-child(odd) {
     background: $white;
+  }
+}
+
+.container {
+  max-width: 1366px;
+}
+
+@media (max-width: 900px) {
+  .event-content {
+    margin-left: 15px;
+    margin-top: 40px;
   }
 }
