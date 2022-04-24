@@ -152,8 +152,14 @@ body {
   }
 
   .btn-outline-primary {
+    color: $primary;
+    border-color: $primary;
     width: 157px;
     height: 40px;
+  }
+
+  .btn-outline-primary:hover {
+    color: $white;
   }
 
   .event-numbers {
