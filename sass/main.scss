@@ -171,15 +171,25 @@ body {
   box-shadow: $box-shadow;
 }
 
-//buttons
-.btn-light {
-  background-color: $background-color;
-  width: 152px;
+// //buttons
+// .btn-light {
+//   background-color: $background-color;
+//   width: 152px;
+// }
+
+// .btn-sec {
+//   background-color: $white;
+//   border: none;
+// }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: $gray-100;
+  background-color: $switch-background;
 }
 
-.btn-sec {
-  background-color: $white;
-  border: none;
+.second-tab {
+  color: $gray-200;
 }
 
 .table td,
