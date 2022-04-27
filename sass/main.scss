@@ -169,18 +169,8 @@ body {
   background-color: $white;
   border-radius: 4px;
   box-shadow: $box-shadow;
+  padding-bottom: 20px;
 }
-
-// //buttons
-// .btn-light {
-//   background-color: $background-color;
-//   width: 152px;
-// }
-
-// .btn-sec {
-//   background-color: $white;
-//   border: none;
-// }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -197,7 +187,7 @@ body {
   border: none;
 }
 
-.thematic-areas-table {
+.oddeven-table {
   tr:nth-child(even) {
     background: $switch-background;
   }
@@ -210,11 +200,60 @@ body {
   max-width: 1366px;
 }
 
-@media (max-width: 900px) {
-  .event-content {
-    margin-left: 15px;
-    margin-top: 40px;
+
+footer {
+  background-color: $footer;
+  color: $white;
+  padding-top: 2px;
+  padding-bottom: 20px;
+
+  .footer-header {
+    font-size: 1.3125rem;
+    font-weight: $bold;
+    margin-bottom: 22px;
   }
+
+  .footer-paragraph {
+    margin-bottom: 10px;
+  }
+}
+
+//second tab
+
+.nav-tabs {
+  border: none;
+}
+
+.second-tabs {
+  padding-left: 50px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border: none;
+}
+
+table {
+  border: none;
+}
+
+.table-head  {
+  color:$white;
+
+}
+.table-para{
+  color: $switch-background;
+}
+
+.personalprofile-table {
+  border: 1px solid $gray-200;
+  border-radius: 5px;
+}
+
+.table-data{
+  padding: 200px;
 }
 
 @media (max-width: 976px) {
@@ -244,19 +283,13 @@ body {
   }
 }
 
-footer {
-  background-color: $footer;
-  color: $white;
-  padding-top: 2px;
-  padding-bottom: 20px;
 
-  .footer-header {
-    font-size: 1.3125rem;
-    font-weight: $bold;
-    margin-bottom: 22px;
-  }
+// @media (max-width: 900px) {
+//   .event-content {
+//     margin-left: 15px;
+//     margin-top: 40px;
+//   }
+// }
 
-  .footer-paragraph {
-    margin-bottom: 10px;
-  }
-}
+
+
