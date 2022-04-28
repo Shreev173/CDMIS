@@ -274,6 +274,23 @@ table {
   margin-left: 50px;
 }
 
+//pagination
+
+.page-link {
+  background-color: none;
+  border: none;
+}
+
+a.page-link.active-state {
+  background-color: $primary;
+  color: $white;
+  border-radius: 3px;
+  width: 30px;
+  padding-bottom: 2px;
+  padding-left: -2px;
+  padding-right: 20px;
+}
+
 @media (max-width: 976px) {
   .dropdown {
     .switch-btn {
