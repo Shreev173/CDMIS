@@ -45,6 +45,11 @@ body {
   font-weight: 400;
 }
 
+.font-24-medium {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 .font-32-medium {
   font-size: 2rem;
   font-weight: 500;
@@ -256,6 +261,10 @@ table {
 
 .switch-row {
   background-color: #f9fbff;
+}
+
+.enrolled {
+  margin-left: 50px;
 }
 
 @media (max-width: 976px) {

@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CDMIS</title>
+    <link rel="stylesheet" type="text/css" href="/sass/main.css" />
+  </head>
+  <body>
+    <section id="header">
+      <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand d-flex" href="#"
+            ><img src="/images/logo.svg" alt="Logo" />
+            <div class="content pl-4 font-18-medium">
+              Government of Nepal
+              <span class="d-block pt-2">
+                Ministry of Federal Affairs and General Administration</span
+              >
+              <span class="d-block content_inner pt-2">
+                Provincial and Local Governance Support Program
+              </span>
+            </div>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link font-18-regular pr-5" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-18-regular pr-5" href="#">Manual</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-18-regular pr-5" href="#">Module</a>
+              </li>
+              <li class="nav-item dropdown">
+                <div class="dropdown">
+                  <button
+                    class="btn switch-btn"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <div class="btn_inner">
+                      <img
+                        class="img-fluid pr-2"
+                        src="images/partcipant.svg"
+                      />
+                      <img
+                        class="img-fluid"
+                        src="icons/dropdown.svg"
+                        alt="dropdown"
+                      />
+                    </div>
+                  </button>
+
+                  <div
+                    class="dropdown-menu mt-4"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+
+                  <a href="index.html">
+                    <div class="d-flex ">
+                      <img
+                        class="img-fluid ml-4 pr-3"
+                        src="images/resourceperson.svg"
+                        alt="resourceperson"
+                      />
+
+                      <div class="pt-2">
+                        <p class="font-18-regular gray-100">
+                          Resource Person
+                          <span class="d-block switch-status">switch as resource person</span>
+                        </p>
+                      </div>
+                    </div>
+
+                  </a>
+                    
+                   <!--Participant-->
+
+                  <a href="participant.html" class="active">
+                    <div class="d-flex switch">
+                      <img
+                        class="img-fluid ml-4 pr-3"
+                        src="images/partcipant.svg"
+                        alt="resourceperson"
+                      />
+
+                      <div class="pt-2">
+                        <p class="font-18-regular gray-100">
+                          Participant
+                          <span class="d-block switch-status"
+                            >current</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+
+                  </a>
+                    
+                  <a href="organization.html">
+                    <div class="d-flex">
+                      <img
+                        class="img-fluid ml-4 pr-3"
+                        src="images/organization.svg"
+                        alt="resourceperson"
+                      />
+
+                      <div class="pt-2">
+                        <p class="font-18-regular gray-100">
+                          Organization
+                          <span class="d-block switch-status"
+                            >switch as organization</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+
+                  </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </section>
+
+    <!-- Profile Content -->
+
+    <section id="profile">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-12 col-sm-8 d-flex justify-content-end profile-content">
+           
+              <div class="user-profile">
+                <img
+                  class="img-fluid "
+                  src="images/participant profile.svg"
+                  alt="participantprofile"
+                />
+              </div> 
+
+              <div class="col-lg-9 col-6 mt-4">
+             
+                  <h1 class="font-32-medium gray-100">Prakat Khati</h1>
+                 <p class="font-20-regular primary">Resource Person</p> 
+
+                 <div class="row">
+                   <div class="col-lg-4 d-flex align-items-center">
+                     <img src="icons/mail.svg" alt="mail">
+                     <p class="info gray-100">John@gmail.com</p>
+                   </div>
+                   <div class="icons-info col-lg-4 d-flex align-items-center">
+                    <img src="icons/phone.svg" alt="phone">
+                    <p class="info gray-100">+977-9812345678</p>
+                  </div>
+                  <div class=" icons-info-2 col-lg-4 d-flex align-items-center">
+                    <img src="icons/location.svg" alt="location">
+                    <p class="info  gray-100">Kathmandu, Nepal</p>
+                  </div>
+                 </div>
+
+                 <h1 class="font-18-medium gray-100 mt-4">Associated Organizations :</h1>  
+                 
+                 <div class="row mt-3">
+                   <div class="col-lg-3 d-flex">
+                    <p class="font-18-semibold gray-100">योग्यता :</p>
+                    <p class="font-18-regular gray-100 pl-2">स्नातक</p>
+                   </div>
+                   <div class=" qualification col-lg-3 d-flex">
+                    <p class="font-18-semibold gray-100"> उत्तिर्ण बर्ष  :</p>
+                    <p class="font-18-regular gray-100 pl-2">2016</p>
+                   </div>
+                   <div class=" qualification-1 col-lg-3 d-flex">
+                    <p class="font-18-semibold gray-100">संकाय :</p>
+                    <p class="font-18-regular gray-100 pl-2">कानुन</p>
+                   </div>
+                   <div class=" qualification-2 col-lg-3 d-flex">
+                    <p class="font-18-semibold gray-100">डिभिजन :</p>
+                    <p class="font-18-regular gray-100 pl-2">प्रथम श्रेणी</p>
+                   </div>      
+                 </div>
+
+                 
+                 <button
+                 type="button"
+                 class="btn btn-outline-primary mt-2 font-18-regular mt-4"
+               >
+                 View Resume
+               </button>
+                
+              </div>
+               
+              </div>
+
+              
+     <div class="col-lg-3 col-md-4 col-6 event-content text-center">
+      <div>
+        <h1 class="font-32-medium gray-100 pt-3">Event Details</h1>
+      </div>
+
+      <div class="event-thematic">
+        <p class="event-numbers">12</p>
+        <p class="font-18-medium gray-100 event-title">
+          Total Events Attended
+        </p>
+
+        <p class="event-numbers">24</p>
+        <p class="font-18-medium gray-100 event-title">
+          Total Thematic Areas
+        </p>
+      </div>
+    </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- Personal Info -->
+
+    <section id="personal-information">
+      <div class="container personal-content mt-5">
+        <ul class="nav nav-pills mb-3 ml-5 " id="pills-tab" role="tablist">
+            <li class="nav-item mt-4">
+              <a class="nav-link active font-20-medium" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Events</a>
+            </li>
+            <li class="nav-item mt-4">
+              <a class="nav-link font-20-medium second-tab" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Participant Profile</a>
+            </li>
+          
+          </ul>
+
+
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                <nav>
+                    <div class="nav nav-tabs second-tabs" id="nav-tab" role="tablist">
+                      <a class="nav-item nav-link active font-18-medium gray-100" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Enrolled</a>
+                      <a class="nav-item nav-link font-18-medium gray-200" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Ongoing</a>
+                      <a class="nav-item nav-link font-18-medium gray-200" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Upcoming</a>
+                    </div>
+                  </nav>
+
+
+                  <!--inner tab-content-->
+
+                  <div class="tab-content" id="nav-tabContent">
+
+                       <!--Inner first-->
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                          
+                         <!--Inner container-->
+                        <div class="container mt-4">
+                            <h1 class="primary font-24-medium mt-2 enrolled">Enrolled Events</h1>
+                  
+
+                               <!--Inner row-->
+                            <div class="row">
+
+                                   <!--Inner col-->
+                                <div class="col-lg-11 col-md-12 col-sm-12 secondtab-table mt-4">
+
+                                    <div class="row mt-4 pl-5">
+                                        <div class="col-lg-8 col-md-3 col-sm-3 pt-3  ">
+                                          <p class="font-24-medium gray-100">Events Name </p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                          <p class="font-24-medium gray-100">Date  </p>
+                                        </div>
+                                      </div>
+
+                                      <div class="row switch-row pl-5">
+                                        <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                                          <p class="font-24-regular gray-100">स्थानीय शासन सम्बन्धी नीति, कानुन तथा सार्वजनिक प्रशासन </p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                          <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                                        </div>
+                                      </div> 
+                                      <div class="row pl-5">
+                                        <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                                          <p class="font-24-regular gray-100">संघीय शासन प्रणाली र स्थानीय शासन</p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                          <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                                        </div>
+                                      </div> 
+                                      <div class="row switch-row pl-5">
+                                        <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                                          <p class="font-24-regular gray-100">सार्वजनिक खरिद प्रणाली </p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                          <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                                        </div>
+                                      </div> 
+                                      <div class="row pl-5">
+                                        <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                                          <p class="font-24-regular gray-100">नेतृत्व विकास र सशक्तिकरण </p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                          <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                                        </div>
+                                  </div>
+                                  <div class="row switch-row pl-5">
+                                    <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                                      <p class="font-24-regular gray-100">स्थानीय तह संस्थागत क्षमता स्वमूल्याङ्कन (LISA)</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                      <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                                    </div>
+                                  </div>
+                                  <div class="row pl-5">
+                                    <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                                      <p class="font-24-regular gray-100">नतिजामा आधारित योजना, अनुगमन तथा मूल्याङ्कन </p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                      <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                                    </div>
+                              </div>
+                              <!--Inner col ko div -->
+                                </div>
+                                <!--Inner row ko div-->
+                            </div>
+                         <!--Inner container ko div-->
+                        </div>
+                        <!--Inner first ko div-->
+                    </div>
+
+
+                    <!--Inner second-->
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+
+ <!--Inner container-->
+ <div class="container mt-4">
+    <h1 class="primary font-24-medium mt-2 enrolled">Ongoing Events</h1>
+
+
+       <!--Inner row-->
+    <div class="row">
+
+           <!--Inner col-->
+        <div class="col-lg-11 col-md-12 col-sm-12 secondtab-table mt-4">
+
+            <div class="row mt-4 pl-5">
+                <div class="col-lg-8 col-md-3 col-sm-3 pt-3  ">
+                  <p class="font-24-medium gray-100">Events Name </p>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                  <p class="font-24-medium gray-100">Date  </p>
+                </div>
+              </div>
+
+              <div class="row switch-row pl-5">
+                <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                  <p class="font-24-regular gray-100">स्थानीय शासन सम्बन्धी नीति, कानुन तथा सार्वजनिक प्रशासन </p>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                  <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                </div>
+              </div> 
+              <div class="row pl-5">
+                <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                  <p class="font-24-regular gray-100">संघीय शासन प्रणाली र स्थानीय शासन</p>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                  <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                </div>
+              </div> 
+              <div class="row switch-row pl-5">
+                <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                  <p class="font-24-regular gray-100">सार्वजनिक खरिद प्रणाली </p>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                  <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                </div>
+              </div> 
+              <div class="row pl-5">
+                <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                  <p class="font-24-regular gray-100">नेतृत्व विकास र सशक्तिकरण </p>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                  <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                </div>
+          </div>
+          <div class="row switch-row pl-5">
+            <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+              <p class="font-24-regular gray-100">स्थानीय तह संस्थागत क्षमता स्वमूल्याङ्कन (LISA)</p>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+              <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+            </div>
+          </div>
+          <div class="row pl-5">
+            <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+              <p class="font-24-regular gray-100">नतिजामा आधारित योजना, अनुगमन तथा मूल्याङ्कन </p>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+              <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+            </div>
+      </div>
+      <!--Inner col ko div -->
+        </div>
+        <!--Inner row ko div-->
+    </div>
+ <!--Inner container ko div-->
+</div>
+ <!--Inner second ko div-->
+  </div>
+
+                     <!--Inner third-->
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+                         <!--Inner container-->
+                         <div class="container mt-4">
+                            <h1 class="primary font-24-medium mt-2 enrolled">Upcoming Events</h1>
+                  
+
+                               <!--Inner row-->
+                            <div class="row">
+
+                                   <!--Inner col-->
+                                <div class="col-lg-11 col-md-12 col-sm-12 secondtab-table mt-4">
+
+                                    <div class="row mt-4 pl-5">
+                                        <div class="col-lg-8 col-md-3 col-sm-3 pt-3  ">
+                                          <p class="font-24-medium gray-100">Events Name </p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                          <p class="font-24-medium gray-100">Date  </p>
+                                        </div>
+                                      </div>
+
+                                      <div class="row switch-row pl-5">
+                                        <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                                          <p class="font-24-regular gray-100">स्थानीय शासन सम्बन्धी नीति, कानुन तथा सार्वजनिक प्रशासन </p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                          <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                                        </div>
+                                      </div> 
+                                      <div class="row pl-5">
+                                        <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                                          <p class="font-24-regular gray-100">संघीय शासन प्रणाली र स्थानीय शासन</p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                          <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                                        </div>
+                                      </div> 
+                                      <div class="row switch-row pl-5">
+                                        <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                                          <p class="font-24-regular gray-100">सार्वजनिक खरिद प्रणाली </p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                          <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                                        </div>
+                                      </div> 
+                                      <div class="row pl-5">
+                                        <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                                          <p class="font-24-regular gray-100">नेतृत्व विकास र सशक्तिकरण </p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                          <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                                        </div>
+                                  </div>
+                                  <div class="row switch-row pl-5">
+                                    <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                                      <p class="font-24-regular gray-100">स्थानीय तह संस्थागत क्षमता स्वमूल्याङ्कन (LISA)</p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                      <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                                    </div>
+                                  </div>
+                                  <div class="row pl-5">
+                                    <div class="col-lg-8 col-md-3 col-sm-3 pt-3 ">
+                                      <p class="font-24-regular gray-100">नतिजामा आधारित योजना, अनुगमन तथा मूल्याङ्कन </p>
+                                    </div>
+                                    <div class="col-lg-4 col-md-3 col-sm-3 pt-3">
+                                      <p class="font-24-regular gray-100">फाल्गुन ७ , २०२२ </p>
+                                    </div>
+                              </div>
+                              <!--Inner col ko div -->
+                                </div>
+                                <!--Inner row ko div-->
+                            </div>
+                         <!--Inner container ko div-->
+                        </div>
+                        <!--Inner third ko div-->
+                    </div>
+                    <!--Inner tab-content ko div-->
+                  </div>
+                <!--first ko div-->
+            </div>
+
+            <!--Second-->
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+                <nav>
+                    <div class="nav nav-tabs second-tabs" id="nav-inner-second" role="tablist">
+                      <a class="nav-item nav-link active font-18-medium gray-100" id="nav-first-tab" data-toggle="tab" href="#nav-first" role="tab" aria-controls="nav-first" aria-selected="true">पहिलो</a>
+                      <a class="nav-item nav-link font-18-medium gray-200" id="nav-second-tab" data-toggle="tab" href="#nav-second" role="tab" aria-controls="nav-second" aria-selected="false">दोस्रो</a>
+                    </div>
+                  </nav>
+
+
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-first" role="tabpanel" aria-labelledby="nav-first-tab">
+                        <div class="container mt-4">
+                            <div class="row">
+                              <div class="col-lg-11 col-md-12 col-sm-12 secondtab-table">
+                                <h1 class="primary font-24-regular text-center mt-3">सहभागी विवरण</h1>
+          
+                                <div class="row mt-4 switch-row pl-5">
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3  ">
+                                    <p class="font-20-medium gray-100">लिङ्ग </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-20-medium gray-100">जात/समूह </p>
+                                  </div>
+          
+                                </div>
+                                <div class="row pl-5">
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3 ">
+                                    <p class="font-18-regular gray-100">Male </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-18-regular gray-100">Kshatriya </p>
+                                  </div>
+          
+                                </div>
+          
+                                <hr>
+          
+                                <h1 class="primary font-24-regular text-center mt-3">ठेगाना</h1>
+          
+                                <div class="row mt-4 switch-row pl-5">
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3  ">
+                                    <p class="font-20-medium gray-100">प्रदेश </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-20-medium gray-100">जिल्ला  </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-20-medium gray-100">वडा नं   </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-20-medium gray-100">स्थानीय तह    </p>
+                                  </div>
+          
+                                </div>
+                                <div class="row pl-5">
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3 ">
+                                    <p class="font-18-regular gray-100">Province 2</p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-18-regular gray-100">Dhanusha </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-18-regular gray-100">6 </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-18-regular gray-100">Chhireshwornath Nagarpalika </p>
+                                  </div>
+          
+                                </div>
+                                <div class="row mt-4 switch-row pl-5">
+                                  <div class="col-lg-6 col-md-3 col-sm-3 pt-3  ">
+                                    <p class="font-20-medium gray-100">टोल  </p>
+                                  </div>
+                                </div>
+                                <div class="row pl-5">
+                                  <div class="col-lg-4 col-md-3 col-sm-3 pt-3 ">
+                                    <p class="font-18-regular gray-100">Chhireshwornath</p>
+                                  </div>
+                                 
+                                </div>
+          
+                                
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-second" role="tabpanel" aria-labelledby="nav-second-tab">
+                        <div class="container mt-4">
+                            <div class="row">
+                              <div class="col-lg-11 col-md-12 col-sm-12 secondtab-table">
+                                <h1 class="primary font-24-regular text-center mt-3">कार्यालय विवरण</h1>
+          
+                                <div class="row mt-4 switch-row pl-5">
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3  ">
+                                    <p class="font-20-medium gray-100">लिङ्ग </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-20-medium gray-100">जात/समूह </p>
+                                  </div>
+          
+                                </div>
+                                <div class="row pl-5">
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3 ">
+                                    <p class="font-18-regular gray-100">Male </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-18-regular gray-100">Kshatriya </p>
+                                  </div>
+          
+                                </div>
+          
+                                <hr>
+          
+                                <h1 class="primary font-24-regular text-center mt-3">ठेगाना</h1>
+          
+                                <div class="row mt-4 switch-row pl-5">
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3  ">
+                                    <p class="font-20-medium gray-100">प्रदेश </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-20-medium gray-100">जिल्ला  </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-20-medium gray-100">वडा नं   </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-20-medium gray-100">स्थानीय तह    </p>
+                                  </div>
+          
+                                </div>
+                                <div class="row pl-5">
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3 ">
+                                    <p class="font-18-regular gray-100">Province 2</p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-18-regular gray-100">Dhanusha </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-18-regular gray-100">6 </p>
+                                  </div>
+                                  <div class="col-lg-3 col-md-3 col-sm-3 pt-3">
+                                    <p class="font-18-regular gray-100">Chhireshwornath Nagarpalika </p>
+                                  </div>
+          
+                                </div>
+                                <div class="row mt-4 switch-row pl-5">
+                                  <div class="col-lg-6 col-md-3 col-sm-3 pt-3  ">
+                                    <p class="font-20-medium gray-100">टोल  </p>
+                                  </div>
+                                </div>
+                                <div class="row pl-5">
+                                  <div class="col-lg-4 col-md-3 col-sm-3 pt-3 ">
+                                    <p class="font-18-regular gray-100">Chhireshwornath</p>
+                                  </div>
+                                 
+                                </div>
+          
+                                
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+         
+                  </div>
+
+
+
+            <!--second ko div-->
+            </div>
+           
+            <!--tab-content ko div-->
+          </div>
+ <!--container ko div-->
+         </div>
+
+      
+    </section>
+
+    
+
+    <footer class="mt-5">
+      <div class=" container">
+        <div class="row mt-5">
+           
+          <div class="mt-4 col-lg-4">
+            <img src="images/logo.svg" alt="logo" />  
+          </div>  
+          <div class="col-lg-4 mt-4">
+          <h1 class="footer-header"> Useful Links</h1>
+          <p class=" footer-paragraph font-18-regular">Home</p>
+          <p class=" footer-paragraph font-18-regular">About</p>
+          <p class=" footer-paragraph font-18-regular">Service</p>
+          <p class=" footer-paragraph font-18-regular">Contact</p>
+          </div>
+
+
+          <div class="col-lg-4 mt-4">
+            <h1 class="footer-header"> Contact</h1>
+            <p class=" footer-paragraph font-18-regular">Kathmandu , Nepal</p>
+            <p class=" footer-paragraph font-18-regular">+977-9812345678</p>
+            <p class=" footer-paragraph font-18-regular">info@plgsp.gov.np</p>
+        
+            </div>
+        
+        </div>
+       
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+

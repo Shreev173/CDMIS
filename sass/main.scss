@@ -45,6 +45,11 @@ body {
   font-weight: $regular;
 }
 
+.font-24-medium {
+  font-size: $font-24;
+  font-weight: $medium;
+}
+
 .font-32-medium {
   font-size: $font-32;
   font-weight: $medium;
@@ -261,6 +266,12 @@ table {
 
 .switch-row {
   background-color: $switch-background;
+}
+
+// Participant
+
+.enrolled {
+  margin-left: 50px;
 }
 
 @media (max-width: 976px) {
