@@ -223,9 +223,8 @@ footer .footer-paragraph {
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-  color: #495057;
-  background-color: #fff;
   border: none;
+  border-bottom: 2px solid #0d6efd;
 }
 
 table {
@@ -247,6 +246,16 @@ table {
 
 .table-data {
   padding: 200px;
+}
+
+.secondtab-table {
+  margin-left: 55px;
+  border: 1px solid #828282;
+  border-radius: 5px;
+}
+
+.switch-row {
+  background-color: #f9fbff;
 }
 
 @media (max-width: 976px) {
