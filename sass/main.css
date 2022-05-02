@@ -147,6 +147,10 @@ body {
   color: #ffffff;
 }
 
+.btn-export {
+  margin-right: 60px;
+}
+
 .event-content {
   background-color: #ffffff;
   border-radius: 4px;
